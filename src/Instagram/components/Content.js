@@ -1,6 +1,21 @@
 import React from 'react';
+import avatar from './assets/images/nasa.jpg';
+import images from './assets/data/images.json';
 
 export const Content = () => {
+    const imagesJSX = images.map((image) => {
+        return (
+            <div
+                className = 'image'
+                key = { image.id }>
+                <img
+                    alt = 'instaphoto'
+                    src = { image.src }
+                />
+            </div>
+        );
+    });
+
     return (
         <div className = 'content'>
             <div className = 'profile'>
