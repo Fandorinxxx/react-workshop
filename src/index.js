@@ -12,6 +12,7 @@ ReactDOM.render(
     <>
         <Instagram />
         <Instagram />
+        <Instagram />
     </>,
     document.getElementById('root'),
 );
