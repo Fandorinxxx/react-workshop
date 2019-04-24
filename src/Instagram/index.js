@@ -2,6 +2,8 @@ import React from 'react';
 import './styles/main.css';
 import { Header } from './components/Header';
 
+import avatar from './assets/images/nasa.jpg';
+
 export const Instagram = () => {
     return (
         <>
@@ -11,6 +13,7 @@ export const Instagram = () => {
                     <img
                         alt = 'avatar'
                         className = 'avatar'
+                        src = { avatar }
                     />
                 </div>
             </div>
