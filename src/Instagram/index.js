@@ -5,9 +5,9 @@ import { Content } from './components/Content';
 
 export const Instagram = () => {
     return (
-        <>
+        <div>
             <Header />
             <Content />
-        </>
+        </div>
     );
 };
