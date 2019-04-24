@@ -31,6 +31,7 @@ export const Instagram = () => {
                                 following
                             </div>
                         </div>
+                        <span className = 'name'>NASA</span>
                     </div>
                 </div>
             </div>
