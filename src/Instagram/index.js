@@ -15,6 +15,9 @@ export const Instagram = () => {
                         className = 'avatar'
                         src = { avatar }
                     />
+                    <div className = 'main'>
+                        <span className = 'nickname'>nasa</span>
+                    </div>
                 </div>
             </div>
         </>
