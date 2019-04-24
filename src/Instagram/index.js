@@ -46,6 +46,7 @@ export const Instagram = () => {
                         <span className = 'name'>NASA</span>
                     </div>
                 </div>
+                <div className = 'images'>{imagesJSX}</div>
             </div>
         </>
     );
