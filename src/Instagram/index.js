@@ -3,5 +3,9 @@ import './styles/main.css';
 import { Header } from './components/Header';
 
 export const Instagram = () => {
-    return <Header />;
+    return (
+        <>
+            <Header />
+        </>
+    );
 };
