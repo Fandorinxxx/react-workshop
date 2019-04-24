@@ -1,19 +1,7 @@
 import React from 'react';
 import './styles/main.css';
+import { Header } from './components/Header';
 
 export const Instagram = () => {
-    return (
-        <div className = 'header'>
-            <div className = 'logo' />
-            <input
-                placeholder = 'Search'
-                type = 'text'
-            />
-            <div className = 'nav'>
-                <div className = 'explore' />
-                <div className = 'likes' />
-                <div className = 'settings' />
-            </div>
-        </div>
-    );
+    return <Header />;
 };
