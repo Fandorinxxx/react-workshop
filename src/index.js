@@ -8,4 +8,4 @@ import './theme/init.css';
 // App
 import { Instagram } from './Instagram';
 
-ReactDOM.render('Добрый вечер!', document.getElementById('root'));
+ReactDOM.render(<Instagram />, document.getElementById('root'));
