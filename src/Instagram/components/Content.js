@@ -1,6 +1,6 @@
 import React from 'react';
-import avatar from './assets/images/nasa.jpg';
-import images from './assets/data/images.json';
+import avatar from '../assets/images/nasa.jpg';
+import images from '../assets/data/images.json';
 
 export const Content = () => {
     const imagesJSX = images.map((image) => {
