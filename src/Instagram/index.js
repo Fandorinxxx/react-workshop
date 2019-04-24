@@ -3,8 +3,20 @@ import './styles/main.css';
 import { Header } from './components/Header';
 
 import avatar from './assets/images/nasa.jpg';
+import images from './assets/data/images.json';
 
 export const Instagram = () => {
+    const imagesJSX = images.map((image) => {
+        return (
+            <div className = 'image'>
+                <img
+                    alt = 'instaphoto'
+                    src = { image.src }
+                />
+            </div>
+        );
+    });
+
     return (
         <>
             <Header />
