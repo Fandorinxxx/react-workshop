@@ -8,7 +8,9 @@ import images from './assets/data/images.json';
 export const Instagram = () => {
     const imagesJSX = images.map((image) => {
         return (
-            <div className = 'image'>
+            <div
+                className = 'image'
+                key = { image.id }>
                 <img
                     alt = 'instaphoto'
                     src = { image.src }
