@@ -5,9 +5,9 @@ import { Content } from './components/Content';
 
 export const Instagram = () => {
     return (
-        <React.Fragment>
+        <>
             <Header />
             <Content />
-        </React.Fragment>
+        </>
     );
 };
